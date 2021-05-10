@@ -29,7 +29,7 @@ function App() {
   function handleSearchChange(e) {
     let tempResults = [];
     fetch(
-      "http://www.omdbapi.com/?s=" +
+      "https://www.omdbapi.com/?s=" +
         e.target.value +
         "&type=movie&apikey=" +
         process.env.REACT_APP_OMDB_API_KEY
