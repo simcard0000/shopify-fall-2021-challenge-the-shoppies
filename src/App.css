@@ -6,9 +6,8 @@
   text-align: center;
 }
 
-
 .App-body {
-  background-color: #96bf48 ;
+  background-color: #96bf48;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,7 +35,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content:center;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto;
   overflow: auto;
@@ -48,8 +47,8 @@
 }
 
 h1 {
-  font-family: 'Allura', cursive;
+  font-family: "Allura", cursive;
   font-size: 100px;
-  color: 	white;
+  color: white;
   margin: 0;
 }
