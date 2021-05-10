@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import {
   InputGroup,
@@ -17,6 +17,14 @@ function App() {
   let [results, setResults] = useState([]);
   let [nominations, setNominations] = useState([]);
   let [nominationToast, setNominationToast] = useState(false);
+
+  useEffect(() => {
+    if (nominations.length === 5) {
+      setNominationToast(true);
+    } else {
+      setNominationToast(false);
+    }
+  }, [nominations.length]);
 
   function handleSearchChange(e) {
     let tempResults = [];
@@ -52,11 +60,6 @@ function App() {
           )
         )
       );
-    }
-    if (nominations.length === 4) {
-      setNominationToast(true);
-    } else {
-      setNominationToast(false);
     }
   }
 
