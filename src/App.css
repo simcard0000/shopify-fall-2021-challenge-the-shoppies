@@ -1,0 +1,55 @@
+@import "~normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+
+.App {
+  text-align: center;
+}
+
+
+.App-body {
+  background-color: #96bf48 ;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.Card {
+  margin-bottom: 10px;
+  max-height: 200px;
+}
+
+.Card-flex {
+  display: flex;
+  flex-direction: row;
+  max-width: 250px;
+}
+
+.Card-flex-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.Results-wrap {
+  max-width: 275px;
+  overflow: auto;
+}
+
+h1 {
+  font-family: 'Allura', cursive;
+  font-size: 100px;
+  color: 	white;
+  margin: 0;
+}
